@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "CommentsOnly": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "CONFIG_DIRECTORY": "../../../"
+      }
+    }
+  }
+}

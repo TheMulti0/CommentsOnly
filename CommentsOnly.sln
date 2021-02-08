@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommentsOnly", "CommentsOnly\CommentsOnly.csproj", "{ADDDB339-42EF-4189-A6EC-1A09D3E7D587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADDDB339-42EF-4189-A6EC-1A09D3E7D587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDDB339-42EF-4189-A6EC-1A09D3E7D587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDDB339-42EF-4189-A6EC-1A09D3E7D587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDDB339-42EF-4189-A6EC-1A09D3E7D587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
