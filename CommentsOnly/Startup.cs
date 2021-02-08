@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -44,7 +45,7 @@ namespace CommentsOnly
             services
                 .AddTelegramBotClient()
                 .AddSingleton<IUpdatesHandler, UpdatesHandler>()
-                .AddSingleton<IMessagesHandler, StartCommand>()
+                .AddAllOfType(typeof(IMessagesHandler))
                 .AddHostedService<TelegramBotService>();
         }
     }

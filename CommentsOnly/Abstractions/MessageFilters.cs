@@ -4,6 +4,6 @@ namespace CommentsOnly
 {
     public static class MessageFilters
     {
-        public static MessageFilter PrivateMessage = msg => msg.Chat.Type == ChatType.Private;
+        public static readonly MessageFilter PrivateMessage = msg => msg.Chat.Type == ChatType.Private;
     }
 }
