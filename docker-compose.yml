@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  commentsonly:
+    image: themulti0/commentsonly
+    build:
+      context: .
+      dockerfile: CommentsOnly/Dockerfile
+    container_name: commentsonly
+    restart: always
+    volumes:
+      - './CommentsOnly/appsettings.json:/app/appsettings.json'

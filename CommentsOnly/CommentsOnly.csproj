@@ -4,10 +4,12 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
       <UserSecretsId>f94e588a-2668-4245-8dec-24c7fca0cacb</UserSecretsId>
+      <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
       <PackageReference Include="System.Interactive.Async" Version="5.0.0" />
       <PackageReference Include="System.Reactive" Version="5.0.0" />
       <PackageReference Include="Telegram.Bot" Version="15.7.1" />
